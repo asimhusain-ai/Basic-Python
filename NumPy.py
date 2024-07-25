@@ -1,0 +1,11 @@
+import numpy as np
+arr1 = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+arr2 = np.array([4,7,9,10,12,14,16,18,19,20])
+print("Size Of Array:", arr2.size)
+print(arr1[1,0:3])
+print(arr2[2])
+print(arr2[-2])
+print(arr2[1:4])
+print(arr2[2:])
+print(arr2[:5])
+print(arr2[1:4:2])
